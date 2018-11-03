@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+}
+
+img{
+	max-width: 100%;
+	display: block;
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background: url(../images/banner-6.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.header{
+	color: #fff;
+	overflow: hidden;
+	padding: 25px 0;
+
+}
+
+.logo{
+	width: 20%;
+	float: left;
+	padding-top: 20px;
+}
+
+.logo img{}
+
+nav{
+	width: 80%;
+	float: left;
+	padding-top: 20px;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+	padding: 10px;
+}
+nav ul li a:hover{
+	color: red;
+}
+
+.banner-content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.banner-content h2{
+	color: white;
+	font-size: 45px;
+}
+
+.banner-content h4{
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+.banner-content h4 span{
+	color: red;
+}
+
+.about-section{
+	padding: 100px 0;
+	background: whitesmoke;
+}
+.about-img{
+	width: 50%;
+	float: left;
+}
+.about-img img{
+	max-width: 100%;
+	width: 70%;
+	margin: 0 auto;
+	display: block;
+
+}
+.about-me{
+	width: 50%;
+	float: left;
+}
+.about-me h3{
+	margin: 0;
+	font-size: 25px;
+	font-weight: 100;
+}
+.about-me h1{
+	margin: 0;
+	font-size: 40px;
+}
+.about-me p{
+	margin: 0;
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.about-me p strong{}
+.about-me .btn{
+	padding: 15px 35px;
+	display: inline-block;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 14px;
+	text-decoration: none;
+	border: 1px solid;
+	border-radius: 5px;
+
+}
+.about-me .btn:hover{
+	background: #333;
+	color: #fff;
+
+}
+
+.gallery-section{
+	padding: 100px 0;
+}
+.gallery{
+	width: 33.33%;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.gallery img{
+	width: 100%;
+	max-width: 100%;
+	display: block;
+}
+
+.footer-section{
+	background: lightgray;
+	height: 60px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+ul li{
+	list-style: none;
+	display: inline-block;
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+ul li a{
+	color: #333;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+	padding: 10px;
+	padding-top: 10px;
+}
+
+ul li a:hover{
+	color: red;
+}
+
+
